@@ -20,8 +20,8 @@ const Layout = ({ header, children }) => {
 					}}
 				/>
 				{children}
-				<Footer />
 			</div>
+			<Footer />
 		</>
 	);
 };
