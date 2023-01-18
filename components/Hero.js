@@ -3,7 +3,7 @@ import HeroImage from "assets/HeroImage.png";
 
 const Hero = () => {
 	return (
-		<div>
+		<div className="mb-14 mt-7">
 			<div className="flex items-center justify-between">
 				<div className="flex justify-center">
 					<p className="text-4xl w-96 text-pri">
