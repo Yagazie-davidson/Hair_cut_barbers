@@ -12,7 +12,7 @@ const Hero = () => {
 						ad minim veniam, quis
 					</p>
 				</div>
-				<Image src={HeroImage} alt="Hero-Image" />
+				<Image src={HeroImage} alt="Hero-Image" placeholder="blur" />
 			</div>
 		</div>
 	);
