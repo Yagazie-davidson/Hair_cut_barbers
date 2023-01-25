@@ -8,7 +8,7 @@ const poppins = Poppins({
 export default function App({ Component, pageProps }) {
 	return (
 		<div className={poppins.className}>
-			<Component {...pageProps} />;
+			<Component {...pageProps} />
 		</div>
 	);
 }
