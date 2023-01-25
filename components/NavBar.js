@@ -9,7 +9,7 @@ function NavBar() {
 		<div>
 			<header className="flex items-center justify-between">
 				<Link href="/">
-					<Image src={logoImage} alt="Logo" />
+					<Image src={logoImage} alt="Logo" className="w-16 mobile:w-32" />
 				</Link>
 				<button className="text-3xl text-pri sm:hidden">
 					<RxHamburgerMenu />

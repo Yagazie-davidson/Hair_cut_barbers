@@ -6,7 +6,7 @@ import config from "haircut.config";
 const Layout = ({ header, children }) => {
 	return (
 		<>
-			<div className="mx-20">
+			<div className="mx-10 mt-2 mobile:mx-20">
 				<NavBar />
 				<Head>
 					<title>Hair Cut Barbers</title>
