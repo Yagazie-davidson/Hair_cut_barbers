@@ -5,7 +5,7 @@ import TeamCard from "@/components/TeamCard";
 const Team = () => {
 	return (
 		<Layout>
-			<h2 className="text-pri text-3xl text-center underline underline-offset-8 mb-10">
+			<h2 className="text-pri text-xl mobile:text-3xl text-center underline underline-offset-8 mb-10">
 				BOOK YOUR BARBER TODAY
 			</h2>
 			<GetTeam />
