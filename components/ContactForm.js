@@ -7,7 +7,7 @@ const ContactForm = () => {
 		>
 			<div className="flex gap-10 justify-center flex-wrap">
 				<div>
-					<label for="name">Name</label>
+					<label htmlFor="name">Name</label>
 					<br />
 					<input
 						name="Name"
@@ -17,7 +17,7 @@ const ContactForm = () => {
 					/>
 				</div>
 				<div>
-					<label for="email">Email</label> <br />
+					<label htmlFor="email">Email</label> <br />
 					<input
 						name="email"
 						id="email"
@@ -27,7 +27,7 @@ const ContactForm = () => {
 				</div>
 			</div>
 			<div>
-				<label for="message">Message</label> <br />
+				<label htmlFor="message">Message</label> <br />
 				<input
 					name="messagw"
 					id="message"

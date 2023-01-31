@@ -4,15 +4,15 @@ import GetTeam from "./GetTeam";
 
 function TeamCard({ imageUrl, name }) {
 	return (
-		<div className="bg-pri h-auto w-72 text-white pb-16 mb-5">
+		<div className="">
 			<Image
 				src={imageUrl}
 				alt="member 1"
 				width={288}
 				height={413}
-				placeholder="blur"
+				// placeholder="blur"
 			/>
-			<div className="flex justify-center items-center text-center">
+			<div className="bg-pri text-white h-20 flex justify-center items-center">
 				<h2 className="">{name}</h2>
 			</div>
 		</div>
