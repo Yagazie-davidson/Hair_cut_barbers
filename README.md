@@ -1,3 +1,3 @@
 # HC-BARBERS
 still under development 
-issue in coming 
+issue coming soon
